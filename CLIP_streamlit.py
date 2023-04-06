@@ -35,7 +35,7 @@ if application_choice=="Image Search By Text":
 
 elif application_choice=="Image Search By Image":
     st.write("Please select an image file")
-    desired_input=None
+    #desired_input=None
     uploaded = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
     if uploaded is not None:
         image_bytes = uploaded.read()
